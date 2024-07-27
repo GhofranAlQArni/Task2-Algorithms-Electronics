@@ -38,8 +38,7 @@ walk_cycle = [
 ]```
 
 # Function to smoothly transition between positions
-```ruby
-
+```
 def smooth_transition(start_pos, end_pos, steps=10):
     step_size = {key: (end_pos[key] - start_pos[key]) / steps for key in start_pos}
     for step in range(steps):
