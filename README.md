@@ -50,8 +50,7 @@ def smooth_transition(start_pos, end_pos, steps=10):
 
 
 # Walking function with adjustable speed
-```ruby
-
+```
 def walk(cycle, speed=0.5):
     while True:  # Loop to continuously walk
         for i in range(len(cycle)):
@@ -63,7 +62,7 @@ def walk(cycle, speed=0.5):
 
 
 # Start walking
-```ruby
+```
 
 walk(walk_cycle, speed=0.5)
 ```
